@@ -13,7 +13,6 @@ type User struct {
 	Email    *string `gorm:"type:varchar(225);unique;null"`
 	Phone    *string `gorm:"type:varchar(225);unique;null"`
 	Password string  `gorm:"type:varchar(256);not null"`
-	IdCardR  string  `gorm:"type:varchar(256);not null"`
 }
 type UserJWT struct {
 	UserID string

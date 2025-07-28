@@ -59,7 +59,6 @@ func (uc *UserController) CreateUser(c *gin.Context) {
 		return
 	}
 	newUser.Password = ""
-	newUser.IdCardR = ""
 	c.JSON(http.StatusCreated, gin.H{
 		"message": "用户注册成功",
 		"token":   userJwt,
@@ -99,7 +98,6 @@ func (uc *UserController) LoginUser(c *gin.Context) {
 		return
 	}
 	user_res.Password = ""
-	user_res.IdCardR = ""
 	c.JSON(http.StatusCreated, gin.H{
 		"message": "用户注册成功",
 		"token":   userJwt,

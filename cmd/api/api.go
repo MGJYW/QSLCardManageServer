@@ -17,7 +17,6 @@ func RunApiService() {
 	server := gin.Default()
 	regTestApi(server)
 	regUserApi(server)
-	regProductApi(server)
 	addr := getAddress()
 
 	log.Printf("服务器将在 %s 上启动...", addr)
@@ -45,16 +44,6 @@ func getAddress() string {
 
 	// Host不为空，则使用 "Host:端口" 的形式
 	return fmt.Sprintf("%s:%d", config.Config.Server.Host, config.Config.Server.Port)
-}
-
-func regProductApi(server *gin.Engine) {
-	productController := controller.NewProductController() // 产品控制器保持不变
-
-	productGroup := server.Group("/api/products")
-	{
-		productGroup.GET("/", productController.GetProducts)
-		productGroup.GET("/:id", productController.GetProductByID)
-	}
 }
 
 func regUserApi(server *gin.Engine) {
