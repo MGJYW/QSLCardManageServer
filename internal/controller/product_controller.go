@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Hope-Cruiser-Psy-Volunteer-Alliance/HOMB/internal/models"
-	"github.com/Hope-Cruiser-Psy-Volunteer-Alliance/HOMB/internal/services" // 导入 ProductService
+	"github.com/MGJYW/QSLCardManageServer/internal/models"
+	"github.com/MGJYW/QSLCardManageServer/internal/services" // 导入 ProductService
 	"github.com/gin-gonic/gin"
 )
 

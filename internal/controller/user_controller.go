@@ -7,8 +7,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Hope-Cruiser-Psy-Volunteer-Alliance/HOMB/internal/models"
-	"github.com/Hope-Cruiser-Psy-Volunteer-Alliance/HOMB/internal/services"
+	"github.com/MGJYW/QSLCardManageServer/internal/models"
+	"github.com/MGJYW/QSLCardManageServer/internal/services"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 )

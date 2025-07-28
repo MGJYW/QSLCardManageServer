@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Hope-Cruiser-Psy-Volunteer-Alliance/HOMB/internal/config"
-	"github.com/Hope-Cruiser-Psy-Volunteer-Alliance/HOMB/internal/controller"
-	"github.com/Hope-Cruiser-Psy-Volunteer-Alliance/HOMB/internal/services"
+	"github.com/MGJYW/QSLCardManageServer/internal/config"
+	"github.com/MGJYW/QSLCardManageServer/internal/controller"
+	"github.com/MGJYW/QSLCardManageServer/internal/services"
 	"github.com/gin-gonic/gin"
 ) // 导入 Gin 包
 

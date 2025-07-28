@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Hope-Cruiser-Psy-Volunteer-Alliance/HOMB/internal/config"
-	"github.com/Hope-Cruiser-Psy-Volunteer-Alliance/HOMB/internal/models"
+	"github.com/MGJYW/QSLCardManageServer/internal/config"
+	"github.com/MGJYW/QSLCardManageServer/internal/models"
 	"github.com/golang-jwt/jwt/v5"
 	"gorm.io/gorm"
 )

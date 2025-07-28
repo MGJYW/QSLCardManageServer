@@ -8,7 +8,7 @@ import (
 	"sync" // 导入 sync 包
 	"time"
 
-	"github.com/Hope-Cruiser-Psy-Volunteer-Alliance/HOMB/internal/config"
+	"github.com/MGJYW/QSLCardManageServer/internal/config"
 	"github.com/go-redis/redis/v8"
 )
 

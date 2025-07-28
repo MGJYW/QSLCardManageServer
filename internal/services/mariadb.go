@@ -6,7 +6,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/Hope-Cruiser-Psy-Volunteer-Alliance/HOMB/internal/config"
+	"github.com/MGJYW/QSLCardManageServer/internal/config"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

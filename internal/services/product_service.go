@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Hope-Cruiser-Psy-Volunteer-Alliance/HOMB/internal/models"
+	"github.com/MGJYW/QSLCardManageServer/internal/models"
 	"gorm.io/gorm"
 )
 
